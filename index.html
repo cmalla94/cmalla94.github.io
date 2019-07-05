@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	Paradigm Shift by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -9,42 +9,245 @@
 		<title>Chad Malla</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="particles.js"></script>
+		<script>particlesJS.load('particles-js','particles.json');</script>
 	</head>
 	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+		<div id="particles-js">
+		</div>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Chad Malla</h1>
-						<p>Software Developer &nbsp;&bull;&nbsp; Machine Learning Enthusiast &nbsp;&bull;&nbsp; Avid Coffee Drinker</p>
-						<nav>
-							<ul>
-								<li><a href="https://www.linkedin.com/in/chad-malla-76666a66/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/cmalla94" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
-								<li><a href="https://www.facebook.com/chad.malla" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.instagram.com/cmalla300/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-								
-								<!-- <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li> -->
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Chad Malla</h1>
+							<p>Computing science major with a passion for Data Science. Find out more about my 
+								work experience, projects and interests below.</p>
+							<nav>
+								<ul>
+									<li><a href="https://www.linkedin.com/in/chad-malla-76666a66/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/cmalla94" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a href="https://medium.com/@chadmalla1" class="icon fa-medium" target="_blank"><span class="label">Medium</span></a></li>
+									
+								</ul>
+							</nav>
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
-						</nav>
-					</header>
+			
+							
+						</header>
+						<div class="content">
+							<header>
+								<h2>Recent Project Work</h2>
+							</header>
+								<p><strong>Generating Dog Images: </strong><u>Python, Tensorflow, Keras</u></p> 
+								<p>A recent Kaggle competition made by the Kaggle team to use generative methods to create pictures of dogs that have never been taken by a camera before. 
+									Generative adversarial networks, introduced by Ian Goodfellow, allow this by having a neural network called the generator that takes 
+									a random uniformly distributed number vector as input then outputing an image which is taken into another neural network called the 
+									discriminator along with real pictures from training data and tries to distinguish them as real and fake. There are more details to this where I will
+									attempt to explain as much as possible in my Kaggle 
+									<a href="https://www.kaggle.com/cmalla94/dcgan-generating-dog-images-with-tensorflow" target="_blank">kernal</a>
+									which is still a work in progress as there is month to go in the competition.
+								</p>
+								<ul class="actions">
+										<li><a href="https://www.kaggle.com/cmalla94" target="_blank" class="button primary large">Kaggle</a></li>
+										<li><a href="projects.html" class="button large">More Projects</a></li>
+								</ul>
+							</div>
+					</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy;  <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>Work Experience</h2>
+							<ul class="actions">
+									<li><a href="#second" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						
+						<div class="content">
+							<!--SierraWireless-->
+							<p><strong>Data Analyst @ <a href="https://www.sierrawireless.com/" target="_blank">Sierra Wireless</a></strong></p>
+							<p>At Sierra Wireless, the leading IoT solutions company, I work as a data analyst where I gather data, automate report generation
+								for frequently requested reports providing insights into data deficiencies and making recomendations to address. I work on various 
+								automation projects as the company goes under an organizational shift. Saved the company hours of manual labor by designing, implementing and 
+								documenting a scalable solution for SFTP file transfer to a third party vendor autonomously and an automated solution to transfer warranty from 3000+ products
+								at once. 
+							</p>
+							<p><strong>Technologies:</strong> Python, SQL Server Data Tools, MSSQL Server 2017, SQL (Jobs, Stored Procedures)</p>
+
+							<!--Plexia-->
+							<p><strong>Full-stack developer @ <a href="https://www.plexia.ca/" target="_blank">Plexia</a></strong></p> 
+							<p>Customized the EMR web application following cients' requirements. Implemented
+								new features, fixed bugs and documented changes. Worked closely with other developers
+								bringing efficient medical record managment software solutions.
+							</p>
+							<p><strong>Technologies:</strong> C#, ASP.NET, SQL, MSSQL Server 2017, Javascript, HTML, CSS, Visual Studio, TFS</p>
+							
+							<!--ClearDent-->
+							<p><strong>Support Technician @ <a href="https://www.cleardent.com/" target="_blank">ClearDent</a></strong></p>
+							<p>Communicated with clients providing technical help with the ClearDent management software. Performed updates, 
+								managed database systems, and set up client-server architectures for clients. Worked on data migration and 
+								revising the company's knowledge base project improving company
+							</p>
+							<p><strong>Technologies:</strong> SQL, Jira, Confluence, Salesforce</p>
+						</div>
+					</section>
+		
+				<!-- Section -->
+					<section id="second">
+						<header>
+							<h2>Skills and Technology Experience</h2>
+							<ul class="actions">
+									<li><a href="#third" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<p><strong>Languages: </strong>Experience for all languages listed are gained from work and projects.</p>
+							<ul class="feature-icons">
+								<li class="icon fa-code">Python</li>
+								<li class="icon fa-code">SQL</li>
+								<li class="icon fa-code">R</li>
+								<li class="icon fa-code">Javascript</li>
+								<li class="icon fa-code">C#</li>
+								<li class="icon fa-code">Java (mainly from Hackerrank problems)</li>
+							</ul>
+							<p><strong>Languages: </strong>Familiar through coursework: C, C++, Matlab</p>
+							<p><strong>Technologies: </strong>Experience for all technoligies listed are gained from work and projects.</p>
+							<ul class="feature-icons">
+								<li class="icon fa-laptop">Tensorflow/Keras</li>
+								<li class="icon fa-laptop">React Native</li>
+								<li class="icon fa-laptop">NoSQL<br>(Firebase/DynamoDB)</li>
+								<li class="icon fa-laptop">AWS (Lambda, S3, API Gateway)</li>
+								<li class="icon fa-laptop">Jupyter</li>
+								<li class="icon fa-laptop">Git</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="third">
+						<header>
+							<h2>Soft Skills</h2>
+							<h3>Non-technical skills</h3>
+							<p>In this section I highlighted my personal <br> non-technical skills that I believe your <br> company can benifit from.</p>
+							<ul class="actions">
+									<li><a href="#fourth" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+
+						<div class="content">
+							<!--Three soft skills-->
+							<p><strong>Adaptibility</strong></p>
+							<p>
+								I have worked in various jobs from a convienience store and sales jobs to a small (ClearDent), medium-sized (Plexia)
+								and even large (Sierra Wireless) tech companies. Focusing on the tech companies, the environments were different as 
+								one of them is an open environment with an agile methodology collaborating with fellow team members where projects
+								have strict company conventions that must be followed in contrast to an environemnt where I work in a cubicle 
+								independently with the freedom and responsibility to reasearch on promising technoligies for accomplishing a project, 
+								developing a solution and deploying it to production. Personally I am capable of working with a team and independently 
+								with a preference for a blend of both. 
+							</p>
+
+							<p><strong>Quick Learner</strong></p>
+							<p>
+								Though I listed only 6 languages and technoliges I have worked with many more depending on the task at hand. I like 
+								to learn new tools and research on the benifits as well as the tradeoffs so I am able determine the best approach when 
+								given a new problem to solve. I learn quickly whether it a new language, an integration software or another Javascript library. 
+								I have demonstrated this through coursework where I transition from Python for a Machine Learning class to R for Data Mining and 
+								Intro to Data Science classes then back to Python for Computational Data Science class. I was also capable of this at work by picking 
+								up a new language like C# for development at Plexia and building ETL pipelines using SSIS and SSRS at Sierra Wireless. 
+							</p>
+
+							<p><strong>Communication</strong></p>
+							<p>
+								As an introvert I wasn't always great at talking with new people or open to the idea of it until, through persistence, got into a 
+								cellphone sales job at OSL where I was required to get out of my comfort zone and engage with customers in order to push sales and
+								exceed the quota. I have placed top 3 in the Western Canadian district for sales and also top 5 in the customer satisfaction working 
+								as a support technician at ClearDent. I communicate clearly and effectively when volunteering as a mentor at Canada Learning Code, 
+								speaking in meetings at work and networking at Vancouver's data science meetup group where we people present past 
+								Kaggle competitions. 
+							</p>
+					</section>
+
+				<!-- Section -->
+					<section id="fourth">
+						<header>
+							<h2>Academics</h2>
+							<ul class="actions">
+									<li><a href="#fifth" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<p><strong>Classes</strong> listed are ones that I enjoyed a lot and relevant to most of the positions I am interested in.</p>
+							<ul class="feature-icons">
+									<li class="icon fa-book">Software Engineering</li>
+									<li class="icon fa-book">Machine Learning</li>
+									<li class="icon fa-book">Algorithms 1 & 2</li>
+									<li class="icon fa-book">Data Mining</li>
+									<li class="icon fa-book">Computer Vision</li>
+									<li class="icon fa-book">Intro to & Computational Data Science <br> (2 courses)</li>
+							</ul>
+							<ul class="actions">
+									<li><a href="courses.html" class="button large">More Info</a></li>
+							</ul>
+						</div>
+					</section>
+
+
+				<!-- Section -->
+					<section id="fifth">
+						<header>
+							<h2>Get in touch</h2>
+						</header>
+						<div class="content">
+							<p><strong>Email</strong> or call me if you have any questions about my experiences, my current interests, 
+							or opportunities where you feel I would be a great fit.</p>
+							
+						</div>
+						<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<a href="#">chadmalla1@gmail.com</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<a href="#">(778) 237-6079</a>
+								</li>
+								<li>
+									<h3>Address</h3>
+									<span>New Westminster, BC </span>
+								</li>
+								<li>
+									<h3>Elsewhere</h3>
+									<ul class="icons">
+										<li><a href="https://twitter.com/ChadMalla" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.linkedin.com/in/chad-malla-76666a66/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/cmalla94" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Copyright -->
+					<div class="copyright">Design: <a href="https://html5up.net">Chad Malla and HTML5 UP</a>.</div>
 
 			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
