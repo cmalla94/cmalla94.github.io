@@ -2,10 +2,6 @@ My landing page with extensive details about my academic career and work experie
 
 
 Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
 	Icons:
 		Font Awesome (fontawesome.io)
 
