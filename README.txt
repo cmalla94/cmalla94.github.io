@@ -1,4 +1,4 @@
-My landing page with extensive details about my academic career and work experience. Take a look through and contact me if you have any questions.
+My landing page with extensive details about my academic career and work experience. Take a look and contact me if you have any questions.
 
 
 Credits:
