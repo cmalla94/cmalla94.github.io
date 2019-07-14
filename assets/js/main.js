@@ -41,6 +41,16 @@
 				offset: 100
 			});
 
+	// Nav Scrolly 
+	$("nav[role='main_nav']").find("a").click(function(e) {
+		e.preventDefault();
+		var section = $(this).attr("href");
+		$("html, body").animate({
+			scrollTop: $(section).offset().top - 15
+		}, 1500);
+	});
+
+
 	// Polyfill: Object fit.
 		if (!browser.canUse('object-fit')) {
 
