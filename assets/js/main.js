@@ -38,7 +38,7 @@
 	// Scrolly.
 		$('.scrolly')
 			.scrolly({
-				offset: 30
+				offset: 100
 			});
 
 	// Nav Scrolly 
@@ -46,7 +46,7 @@
 		e.preventDefault();
 		var section = $(this).attr("href");
 		$("html, body").animate({
-			scrollTop: $(section).offset().top - 30
+			scrollTop: $(section).offset().top - 100
 		}, 1000);
 	});
 
