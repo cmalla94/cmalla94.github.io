@@ -3101,43 +3101,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.gallery {
-				margin: -0.625rem 0 0 -0.625rem;
-				width: calc(100% + 0.625rem);
+			.navbar {
+				display: none;
 			}
-
-				.gallery a {
-					margin: 0.625rem 0 0 0.625rem;
-					width: calc(50% - 0.625rem);
-				}
-
-					.gallery a img {
-						height: 20rem;
-					}
-
-					.gallery a.landscape img {
-						height: 20rem;
-					}
-
-					.gallery a.portrait img {
-						height: 30rem;
-					}
 
 		}
 
 		@media screen and (max-width: 480px) {
 
-			.gallery a img {
-				height: 12rem;
-				min-height: 0;
-			}
-
-			.gallery a.landscape img {
-				height: 12rem;
-			}
-
-			.gallery a.portrait img {
-				height: 14rem;
+			.navbar {
+				display: none;
 			}
 
 		}
