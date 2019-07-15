@@ -4034,6 +4034,10 @@ input, select, textarea {
 			}
 
 		}
+	
+	body.is-mobile .navbar{
+		display: none;
+	}
 
 	body.is-mobile #wrapper:before {
 		background-attachment: scroll;
