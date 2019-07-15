@@ -38,18 +38,17 @@
 	// Scrolly.
 		$('.scrolly')
 			.scrolly({
-				offset: 100
+				offset: 30
 			});
 
 	// Nav Scrolly 
-	$("nav[role='main_nav']").find("a").click(function(e) {
+	$(".navbar").find("a").click(function(e) {
 		e.preventDefault();
 		var section = $(this).attr("href");
 		$("html, body").animate({
-			scrollTop: $(section).offset().top - 15
-		}, 1500);
+			scrollTop: $(section).offset().top - 30
+		}, 1000);
 	});
-
 
 	// Polyfill: Object fit.
 		if (!browser.canUse('object-fit')) {
