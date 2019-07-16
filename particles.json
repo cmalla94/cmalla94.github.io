@@ -8,16 +8,16 @@
       }
     },
     "color": {
-      "value": "#f796d6"
+      "value": "#353e4a"
     },
     "shape": {
-      "type": "polygon",
+      "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#15bddb"
+        "color": "#353e4a"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 3
       },
       "image": {
         "src": "img/github.svg",
